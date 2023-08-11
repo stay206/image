@@ -9,6 +9,10 @@
         <link rel="icon" type="image/png" sizes="16x16" href="https://stay206.github.io/6e60b6cd01c82516.jpg">
     </head>
     <body style="margin: 0px; background: #0e0e0e;">
+          <button onclick="showRandomImage()">点击显示图片</button>
+  <div id="imageContainer"></div>
+        <script>
+    function showRandomImage() {
         <script type="text/javascript">
             var cur = 1;
             var xx = 0;
@@ -103,5 +107,7 @@
             var r = Math.floor(Math.random() * images.length);
             document.write("<img src=" + images[r] + " onload=\"picLoaded()\" onclick=\"BigSmall()\">");
         </script>
+        }
+  </script>
     </body>
 </html>
