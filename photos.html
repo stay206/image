@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>随机显示图片</title>
+</head>
+<body>
+  <button onclick="showRandomImage()">点击显示图片</button>
+  <div id="imageContainer"></div>
+
+  <script>
+    function showRandomImage() {
+      var imageContainer = document.getElementById("imageContainer");
+      var numberOfImages = 5; // 图片数量，根据实际情况修改
+      var randomImageIndex = Math.floor(Math.random() * numberOfImages);
+      var imageName = randomImageIndex + ".jpg"; // 图片文件名格式，根据实际情况修改
+      var imagePath = "path/to/image/" + imageName; // 图片存放路径，根据实际情况修改
+
+      // 创建并设置img元素
+      var imageElement = document.createElement("img");
+      imageElement.src = imagePath;
+
+      // 清空容器内容
+      imageContainer.innerHTML = "";
+
+      // 将img元素插入到容器中
+      imageContainer.appendChild(imageElement);
+    }
+  </script>
+</body>
+</html>
