@@ -1,22 +1,10 @@
 <html>
     <head>
-         <style>
-  .button1 {
- -webkit-transition-duration: 0.4s;
- transition-duration: 0.4s;
- padding: 16px 32px;
- background-color: white;
- line-height:1;
- text-align:center;
- color: black;
- border: 2px solid #4CAF50;
- border-radius:5px;
- }
- .button1:hover {
- background-color: #4CAF50;
- color: white;
- }
-</style>
+        <style>
+        /*设置按钮的width:宽度; height:高度; background:颜色; position:固定位置; right:离右边的距离; top:离上边的距离; margin:外边距;border-radius:圆角;*/
+        .f {width:60px; height:60px; background:#b6dbf5; position:fixed; right:30px; top:600px; margin:0px;border-radius:30px;}
+        .f:hover {background:#fffffb; cursor:pointer;}
+    </style>
 
         <script type="text/javascript" src="imagelist.json">
         </script>
@@ -124,7 +112,10 @@
             document.write("<img src=" + images[r] + " onload=\"picLoaded()\" onclick=\"BigSmall()\">");
             
         </script>
-         <button class="button1"><a onclick="window.location.reload()">换一张图片</a></button> 
+         <div>
+        <!--使用<input>生成按钮-->
+        <a href="https://stay206.github.io/image/photos"><input class="f" type="button" value="baidu">换一张图片</a>
+         </div>
 
     </body>
 </html>
