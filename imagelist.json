@@ -1,6 +1,8 @@
 var images=
 [
-	
+	"https://pixiv.cat/110674072.jpg",
+	"https://pixiv.cat/110625869.jpg",
+	"https://pixiv.re/95023121.png",
 	"https://pixiv.cat/100965817-1.jpg",
 	"https://pixiv.cat/110712986.jpg",
  "https://i.loli.net/2018/12/12/5c10a02b0831b.jpg",
@@ -20,6 +22,7 @@ var images=
 	"https://i.loli.net/2018/12/22/5c1dcc30cfcbe.jpg",
 	"https://i.loli.net/2018/12/22/5c1dcc8d2f76e.jpg",
 	"https://i.loli.net/2018/12/22/5c1dcc8d4db29.jpg",
+	"https://pixiv.re/93976675.png",
 	"https://i.loli.net/2018/12/22/5c1dcc8d69f2c.jpg",
 	"https://i.loli.net/2018/12/24/5c20cae0a34bf.jpg",
 	"https://i.loli.net/2018/12/24/5c20cae0a5587.jpg",
